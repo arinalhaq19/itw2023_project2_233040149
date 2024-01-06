@@ -1,0 +1,53 @@
+/* :root {
+  --pr-color: #048853;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #9099a2; */
+}
+
+/* Navbar style */
+.main-color {
+  background-color: rgba(114, 2, 114) !important;
+}
+
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/warung.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-produk {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/warung.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border: solid #fff 2px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.content-sosialmedia {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* .row-produk {
+  flex-wrap: wrap;
+} */
